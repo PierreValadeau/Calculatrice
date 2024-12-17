@@ -53,7 +53,4 @@ It was created to showcase my front-end web development skills (HTML, CSS, JavaS
 Voici une capture d'écran de la calculatrice :  
 <img src="screenshot.png" alt="Capture d'écran de la calculatrice" width="400" />
 
-### **EN :**  
-Here is a screenshot of the calculator:  
-<img src="screenshot.png" alt="Calculator Screenshot" width="400" />
 
