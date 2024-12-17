@@ -6,6 +6,8 @@ let operator = null;
 // Select the display
 const display = document.getElementById('display');
 
+
+
 // Function to update the display
 function updateDisplay(value) {
   display.textContent = value || '0';
@@ -78,11 +80,22 @@ function handleEquals() {
       return;
   }
 
+  // If the result is a number and not Nan, limit the result to 6 decimal places
+  if (typeof result === 'number' && !isNaN(result)) {
+    result = parseFloat(result.toFixed(6));
+  }
+
+  // Limit the total length of the result display to 10 characters
   currentOperand = result.toString();
+  if (currentOperand.length > 10) {
+    currentOperand = currentOperand.slice(0, 10); // Truncate to 10 characters
+  }
+
   previousOperand = '';
   operator = null;
   updateDisplay(currentOperand);
 }
+
 
 // Clear everything
 function clearAll() {
@@ -116,3 +129,4 @@ function isNumber(key) {
 function isOperator(key) {
   return ['+', '-', '*', '/'].includes(key);
 }
+
