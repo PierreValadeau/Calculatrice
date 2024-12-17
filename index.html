@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iPhone-Style Calculator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 flex items-center justify-center h-screen">
+  <div class="bg-gray-800 rounded-lg shadow-lg w-80 p-4">
+    <!-- Display -->
+    <div id="display" class="bg-gray-900 text-right text-white text-3xl rounded-lg py-4 px-2 mb-4">
+      0
+    </div>
+    <!-- Buttons -->
+    <div class="grid grid-cols-4 gap-2">
+      <!-- Row 1 -->
+      <button class="btn bg-gray-700" data-key="AC">AC</button>
+      <button class="btn bg-gray-700" data-key="+/-">+/-</button>
+      <button class="btn bg-gray-700" data-key="%">%</button>
+      <button class="btn bg-orange-500 text-white" data-key="/">÷</button>
+      <!-- Row 2 -->
+      <button class="btn bg-gray-600" data-key="7">7</button>
+      <button class="btn bg-gray-600" data-key="8">8</button>
+      <button class="btn bg-gray-600" data-key="9">9</button>
+      <button class="btn bg-orange-500 text-white" data-key="*">×</button>
+      <!-- Row 3 -->
+      <button class="btn bg-gray-600" data-key="4">4</button>
+      <button class="btn bg-gray-600" data-key="5">5</button>
+      <button class="btn bg-gray-600" data-key="6">6</button>
+      <button class="btn bg-orange-500 text-white" data-key="-">−</button>
+      <!-- Row 4 -->
+      <button class="btn bg-gray-600" data-key="1">1</button>
+      <button class="btn bg-gray-600" data-key="2">2</button>
+      <button class="btn bg-gray-600" data-key="3">3</button>
+      <button class="btn bg-orange-500 text-white" data-key="+">+</button>
+      <!-- Row 5 -->
+      <button class="btn col-span-2 bg-gray-600" data-key="0">0</button>
+      <button class="btn bg-gray-600" data-key=".">.</button>
+      <button class="btn bg-orange-500 text-white" data-key="=">=</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
