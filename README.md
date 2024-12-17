@@ -41,8 +41,8 @@ It was created to showcase my front-end web development skills (HTML, CSS, JavaS
 1. **EN :** Clone GitHub repository :  
    ```bash
    git clone https://github.com/PierreValadeau/Calculatrice.git
-   Open the index.html file in your browser.
+   Open the index.html in file in your browser.
    
 
 ## 🌟 Apercu du projet 
-
+ ![Capture d'écran](./screenshot.png)
