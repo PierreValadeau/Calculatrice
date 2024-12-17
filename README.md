@@ -35,4 +35,4 @@ It was created to showcase my front-end web development skills (HTML, CSS, JavaS
 ## 🚀 Comment exécuter le projet | How to Run the Project
 1. **FR :** Clonez le dépôt GitHub :  
    ```bash
-   git clone https://github.com/<ton_username>/<ton_repo>.git
+   git clone https://github.com/PierreValadeau/Calculatrice.git
